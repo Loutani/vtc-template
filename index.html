@@ -588,29 +588,31 @@
         </div>
     </section>
 
-    <section class="container mx-auto">
-        <div>
+    <section class="mt-16 bg-light-gray pb-16">
+        <div class="container mx-auto grid gap-8 grid-cols-3 grid-rows-2 p-20">
             <div>
-                <input type="text" placeholder="Your Name">
+                <input class="w-full text-xl p-3 border border-gray focus:border-dark-gray outline-none hover:border-yellow text-dark-gray" type="text" placeholder="Your Name">
             </div>
             <div>
-                <input type="text" placeholder="Your E-mail">
+                <input class="w-full text-xl p-3 border border-gray focus:border-dark-gray outline-none hover:border-yellow text-dark-gray" type="text" placeholder="Your E-mail">
+            </div>
+            <div class="row-span-2">
+                <textarea class="h-full w-full text-xl p-3 border border-gray focus:border-dark-gray outline-none hover:border-yellow text-dark-gray" type="text" placeholder="Your question"></textarea>
             </div>
             <div>
-                <input type="text" placeholder="Your question">
+                <input class="w-full text-xl p-3 border border-gray focus:border-dark-gray outline-none hover:border-yellow text-dark-gray" type="text" placeholder="Your Phone">
             </div>
             <div>
-                <input type="text" placeholder="Your Phone">
-            </div>
-            <div>
-                <input type="text" placeholder="Your City">
+                <input class="w-full text-xl p-3 border border-gray focus:border-dark-gray outline-none hover:border-yellow text-dark-gray" type="text" placeholder="Your City">
             </div>
         </div>
-        <div>
-            <input type="checkbox">
+        <div class="flex items-center justify-center">
+            <input class="mr-2" type="checkbox">
             <p>I agree that my submitted data is being collected and stored.</p>
         </div>
-        <button>Send a Request</button>
+        <div class="flex justify-center mt-8">
+            <button class="py-4 px-16 rounded-full bg-yellow text-dark-gray font-bold">Send a Request</button>
+        </div>
     </section>
 
     <footer class="container mx-auto">
